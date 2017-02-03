@@ -1,0 +1,167 @@
+/*--------------------main attributes-----------------------*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font:Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+/*------------------Inside the body box---------------------*/
+#big_wrapper{
+	max-width:800px;
+	height:auto;
+	margin: 20px 0px;
+	background: green;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-ordinal-group: 1;
+	-webkit-box-align:justify;
+	-webkit-box-pack:center;
+	-webkit-border-radius:10px;
+	-webkit-box-flex: 1;
+	/*background of all below the menu bar*/
+}
+/*---------------------Banner site--------------------------*/
+#top_header{
+	background: yellow;
+	border: 3px solid blue;
+	padding: 20px;
+	-webkit-border-radius:10px;
+	display:-webkit-box;
+	-webkit-box-flex: 1; 
+}
+/*-----------------------Banner-----------------------------*/
+#banner{
+	-webkit-border-radius:10px;
+	-webkit-box-shadow:rgba(146,42,43,.7) 0px 3px 8px;
+}
+/*-----------------navagation menu holder-------------------*/
+#top_menu {
+	list-style:none;
+	border:red;
+	background: green;
+	-webkit-font-smoothing: antialiased;
+	color: white;
+	padding:10px;
+	/*-webkit-box-shadow:rgba(100,100,100) 2px 7px 18px;
+	/*-webkit-box-orient:horizontal;
+	-webkit-box-align:center;
+	/*-webkit-border-radius:10px;*/
+}
+/*-------------------navagation menu------------------------*/
+#top_menu li{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font:bold 18px Tahoma;
+	border:1px solid #999999;
+	-webkit-border-radius:3px;
+	-webkit-box-shadow:rgba(146,42,43,.5) 2px 3px 10px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: -webkit-transform 1s, background 1s, color 1s, opacity 1s;
+}
+/*--------------------menu nav font-------------------------*/
+#button{
+	color:yellow;
+}
+/*-------------for hover to indicate button-----------------*/
+#top_menu li:hover{
+	/*color:red;*/
+	background:-webkit-linear-gradient(top,black,red);
+	color:white;
+	opacity:0.8;
+	-webkit-transform:scale(1.1);
+}
+/*-----------this is the stuff below the menu bar-----------*/
+#main_section{
+	border:1px solid yellow;
+	margin: 10px;
+	padding: 5px;
+	font-family:Tahoma;
+	-webkit-font-smoothing: antialiased;
+	/*moves main content adjust below*/
+	-webkit-transform:translate(20px,auto);
+	-webkit-border-radius:10px;
+	-webkit-box-ordinal-group: 3;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: verticle;		
+}
+/*---------------------header holder------------------------*/
+article{
+	padding:5px;
+	margin-bottom:5px;	
+	-webkit-font-smoothing: antialiased;
+}
+/*-------------------footer attributes----------------------*/
+article footer{
+	color:#C11300;
+	text-shadow:rgba(0,0,0,.7) 2px 1px 1px;
+	text-align:right;
+	-webkit-font-smoothing: antialiased;
+}
+/*-----------------------headings---------------------------*/
+#h1{
+	font: bold 20px Tahoma;
+	text-shadow:rgba(0,0,0,.4) 2px 2px 2px;
+}
+/*----------------------subheadings-------------------------*/
+#h2{
+	font: bold 16px Tahoma;
+	color:white;
+	padding: 2px;
+	text-shadow:rgba(0,0,0,.5) 2px 2px 5px;
+}
+/*-------------------article paragraphs---------------------*/
+#p{
+	color:#000;
+	padding: 5px;
+	text-indent: 40px;
+	-webkit-border-radius:5px;
+	text-align:justify;
+	/*-webkit-box-shadow:rgba(146,42,43,.5) 3px 3px 10px;*/
+	-webkit-box-flex: 1;
+}
+/*---------------------article photos-----------------------*/
+#pic{
+	display:-webkit-box;
+	-webkit-border-radius:10px;
+	display:inline-block;
+	padding:5px;
+}
+/*---------------------footer holder------------------------*/
+#by{
+	
+}
+/*-----------------bottom of page footer--------------------*/
+#bottom_footer{
+	text-align:center;
+	font:Tahoma;
+	padding:10px;
+	color:white;
+	-webkit-font-smoothing: antialiased;
+	background:black;
+	-webkit-box-ordinal-group: 4;
+	border-top: 2px solid #999999;
+}
+/*---------------------general body-------------------------*/
+body{
+	width:100%;
+	display:-webkit-box;
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-pack:center;
+	text-align:center;
+	-webkit-border-radius:10px;
+}
+#yellow{
+	-webkit-font-smoothing: antialiased;
+}
+#copyright{
+	font: 10px Tahoma;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
