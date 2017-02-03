@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 20px Tahoma;
+}
+h2{
+	font: bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+
+body{
+	text-align:center;
+}
+
+
+
+
+id="big_wrapper"
+id="top_header"
+id="top_menu"
+id="main_section"
+id="side_info"
+id="footer"
