@@ -10,6 +10,8 @@ header, section, nav, footer{
 /*---------------------general body-------------------------*/
 body{
 	width:100%;
+	background: green;
+	font-family: Tahoma;
 	display:-webkit-box;
 	-webkit-box-pack:center;
 	text-align:center;
@@ -18,7 +20,7 @@ body{
 }
 /*------------------Inside the body box---------------------*/
 #big_wrapper{
-	max-width:1000px;
+	max-width:100%;
 	height:auto;
 	margin: 20px auto;
 	background: green;
@@ -28,8 +30,6 @@ body{
 	-webkit-box-align:justify;
 	-webkit-box-pack:center;
 	-webkit-border-radius:10px;
-	/*-webkit-box-flex: 1;
-	/*background of all below the menu bar*/
 }
 /*---------------------Banner site--------------------------*/
 #top_header{
@@ -43,6 +43,7 @@ body{
 }
 /*-----------------------Banner-----------------------------*/
 #banner{
+	padding: 5px;
 	-webkit-border-radius:10px;
 	-webkit-box-shadow:rgba(146,42,43,.7) 0px 3px 8px;
 }
@@ -53,10 +54,7 @@ body{
 	background:green;
 	color:yellow;
 	padding:10px;
-	/*-webkit-box-shadow:rgba(100,100,100) 2px 7px 18px;
-	/*-webkit-box-orient:horizontal;
-	-webkit-box-align:center;
-	/*-webkit-border-radius:10px;*/
+	-webkit-font-smoothing: antialiased;
 }
 /*-------------------navagation menu------------------------*/
 #top_menu li{
@@ -86,7 +84,6 @@ body{
 }
 /*-----------this is the stuff below the menu bar-----------*/
 #main_section{
-	/*border:1px solid #999999;*/
 	margin: 10px;
 	padding: 10px;
 	font-family:Tahoma;
@@ -106,7 +103,7 @@ body{
 		border:1px solid #999999;
 		-webkit-border-radius:3px;
 		-webkit-box-shadow:rgba(146,42,43,.5) 2px 3px 10px;
-		-webkit-transition: -webkit-transform 1s, background 1s, color 1s, opacity 1s;
+		
 }
 /*---------------------links nav----------------------------*/
 #link_list{
