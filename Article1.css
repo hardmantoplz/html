@@ -152,7 +152,7 @@ article footer{
 	padding: 5px;
 	text-indent: 40px;
 	-webkit-border-radius:5px;
-	text-align:justify;
+	text-align:left;
 	/*-webkit-box-shadow:rgba(146,42,43,.5) 3px 3px 10px;*/
 	-webkit-box-flex: 1;
 }
@@ -163,10 +163,7 @@ article footer{
 	display:inline-block;
 	padding:5px;
 }
-/*---------------------footer holder------------------------*/
-#by{
-	
-}
+
 /*-----------------bottom of page footer--------------------*/
 #bottom_footer{
 	text-align:center;
