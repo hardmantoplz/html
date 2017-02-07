@@ -1,46 +1,54 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-	<head>
-		<title>
-			test website
-		</title>
-	</head>
-	<body>
-		<style>
-		body {
-		        color: white;
-		}
-		</style>
-		<center>
-			<a href="#home" title="you are here">HOME</a> <a href="SecondPage.html" title="more about me">BIO</a>
-		</center><!--horizontalLine-->
-		<hr>
-		<p>
-			<a name="home" id="home"></a>
-		</p>
-		<center>
-			<h1>
-				<!--em=italicized-->
-				 The <em>Experimental</em> Website Project
-			</h1>
-		</center>
-		<p>
-			<!--b=bold-->
-			 This website is designed for <b>experimental</b> reasons<br>
-		</p>
-		<hr>
-		<center>
-			<h2>
-				<!--anchorTag--> <a name="watch" id="watch"></a>Watch for frequent changes
-			</h2>
-		</center>
-		<p>
-			<!--lineBreak--><br>
-			In order to better understand HTML and web development I <a href="SecondPage.html">(bio)</a> have created this page to become a better developer/web designer.
-		</p>
-		<p>
-			<img src='Sun1.jpg' style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
-		</p>
-		<hr>
+
+<!doctype html>
+<html lang="en">
+ <head>
+	 <meta charset="utf-8" />
+	 <title>My Tech site</title>
+	 <link rel="stylesheet" href="main.css"/>
+	 <script src="some.js"></script>
+ </head>
+	<body>  
+		<div id="big_wrapper">
+			<header id="top_header">
+				<img id="banner" src="https://s3.amazonaws.com/aws-website-mytechsite-jwyg2/Banner.png" alt="my tech site graphic"/>
+			</header>
+				<nav id="top_menu">
+					<ul id="button">	
+						<li><a href="https://s3.amazonaws.com/aws-website-mytechsite-jwyg2/index.html">Home</a></li>
+						<li><a href="https://s3.amazonaws.com/aws-website-mytechsite-jwyg2/Articles1.html">Articles</a></li>
+						<li><a href="https://s3.amazonaws.com/aws-website-mytechsite-jwyg2/links.html">links</a></li>
+						<li><a href="mailto:jmw6886@yahoo.com.com?Subject=Hello%20again" target="_top">Contact</a></li>
+					<ul>	
+				</nav>		
+			<section id="main_section">
+				<div id="text">
+					<article>				
+						<header id="article_title">
+							<hgroup>					
+								<h1 id="h1">Welcome to My Tech Site</h1>
+								<h2 id="h2">for DIY & Technical know how</h2>
+							</hgroup>
+						</header>			
+						<p id="p">This site has been created to help you do technical things for yourself that you might otherwise not know how to do.  I will be adding links, videos and pictures for the purpose of helping you do projects for yourself.  As with all projects please be careful and use common sense when doing any projects involving tools and equipment. <br><br> 
+						<p id="p">As with all projects you attempt, follow all safety precautions including but not limited to, eye protection, hand and skin protection, proper clamping and fastening techniques.  There are many <a href="http://youtube.com">YouTube</a> videos that will help you carry these out.</p>				
+							
+					</article>
+				</div>
+			<hr>
+				<div id="windy">	
+			<h1 id="h1">My weather</h1>
+			<br>			
+			<img id="weather" src="http://static.lakana.com/npg-ktvz-media-us-east-1/weather/7day_full.jpg"  frameborder="0"></img>
+			<br>
+				<footer>
+					<p>weather by</p>
+					<p>KTVZ</p>
+				</footer>
+				</div>
+		 	</div>
+			<footer id="footer">
+				<a href="https://s3.amazonaws.com/aws-website-mytechsite-jwyg2/index.html">My Tech Site</a> <p id="copyright">&copy Copyright 2017</p>
+			</footer>
+		</div>
 	</body>
 </html>
